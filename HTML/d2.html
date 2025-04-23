@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete HTML Demo</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header style="background-color: lightblue; padding: 10px;">
+        <h1>Let's Learn Web Development</h1>
+        <p>Today we will build basic structure of website using all useful HTML elements.</p>
+    </header>
+
+    <!-- Navigation Table of Contents -->
+    <nav style="margin-top: 20px;">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#semantic">Semantic Tags</a></li>
+            <li><a href="#structure">Structural Tags</a></li>
+            <li><a href="#formatting">Formatting Tags</a></li>
+            <li><a href="#media">Media (Image, Audio, Video)</a></li>
+            <li><a href="#table">Table & Bookmark</a></li>
+            <li><a href="#form">Forms</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <main>
+
+        <!-- Semantic Tags -->
+        <section id="semantic">
+            <h2>Semantic Tags</h2>
+            <article>
+                <p>This is an <strong>article</strong> inside the main section using semantic HTML.</p>
+                <aside>I'm an <em>aside</em>, typically used for side notes or related info.</aside>
+            </article>
+        </section>
+
+        <!-- Structural Tags -->
+        <section id="structure">
+            <h2>Structural Tags</h2>
+            <p><code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code> are all structural tags.</p>
+        </section>
+
+        <!-- Formatting Tags -->
+        <section id="formatting">
+            <h2>Formatting Tags</h2>
+            <p><b>Bold</b>, <i>Italic</i>, <u>Underline</u>, <mark>Highlighted</mark>, <small>Small Text</small>, <del>Deleted</del>, <ins>Inserted</ins></p>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h2>Media Elements</h2>
+
+            <h3>Image</h3>
+            <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video</h3>
+            <video width="320" height="240" controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Table with Bookmark -->
+        <section id="table">
+            <h2>Table & Bookmark</h2>
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Contact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="person1">
+                        <td>Alice</td>
+                        <td>Developer</td>
+                        <td><a href="#footer">Contact</a></td>
+                    </tr>
+                    <tr>
+                        <td>Bob</td>
+                        <td>Designer</td>
+                        <td><a href="#footer">Contact</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Jump to <a href="#person1">Alice's Row</a></p>
+        </section>
+
+
+        <section>
+            <h2>Form Example</h2>
+            <form>
+                <label for="name">Name:</label><br>
+
+                <input type="text" name="name"><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email">
+                <label for=""></label>
+                <input type="text">
+            </form>
+        </section>
+
+        <!-- Forms -->
+        <section id="form">
+            <h2>Form Example</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="skills">Skills:</label><br>
+                <input type="checkbox" id="html" name="skills" value="HTML">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="skills" value="CSS">
+                <label for="css">CSS</label><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" style="background-color: lightgray; padding: 10px; margin-top: 20px;">
+        <p>&copy; 2025 Learn Web Development. All rights reserved.</p>
+        <p>Contact: <a href="mailto:example@example.com">example@example.com</a></p>
+    </footer>
+
+</body>
+</html>
