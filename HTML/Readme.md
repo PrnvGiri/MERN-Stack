@@ -44,6 +44,7 @@ To help you get comfortable with:
 
 ## 💼 Mini Portfolio Project (HTML Only)
 [Click here](https://prnvgiri.github.io/MERN-Stack/HTML/) to see the project
+
 Included in this workspace is a mini portfolio project that puts all the HTML concepts you've learned into action.
 
 ### ✨ Features of the Mini Project:
