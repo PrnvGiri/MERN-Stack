@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CapnByte - Mini Portfolio</title>
+</head>
+<body>
+
+  <!-- Header with name and photo -->
+  <header>
+    <h1>CapnByte</h1>
+    <img src="src/download.png" alt="CapnByte's Photo" width="200">
+  </header>
+
+  <!-- Main content --> 
+  <main>
+
+    <!-- About section -->
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hey! I'm CapnByte—a tech enthusiast, gamer, and developer in the making. 
+        I love building cool stuff with code, exploring new tech, and occasionally 
+        jamming on my guitar.
+      </p>
+    </section>
+
+    <!-- Hobbies table -->
+    <section>
+      <h2>My Hobbies</h2>
+      <table border="1">
+        <tr>
+          <th>Hobby</th>
+          <th>Why I Love It</th>
+        </tr>
+        <tr>
+          <td>Gaming</td>
+          <td>Improves reflexes and problem-solving</td>
+        </tr>
+        <tr>
+          <td>Coding</td>
+          <td>Lets me build and automate things</td>
+        </tr>
+        <tr>
+          <td>Playing Guitar</td>
+          <td>Relaxes my mind and keeps me creative</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact form -->
+    <section>
+      <h2>Contact Me</h2>
+      <form action="/submit" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+
+        <input type="submit" value="Send">
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 CapnByte. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
